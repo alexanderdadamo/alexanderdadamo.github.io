@@ -87,6 +87,43 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+/*Fix scroll affix with scrollspy*/
+.affix {
+top: 0;
+width: 100%;
+-webkit-transition: all .5s ease-in-out;
+transition: all .5s ease-in-out;
+background-color: #8A2BE2;
+border-color: #8A2BE2;
+}
+
+.affix a {
+color: #fff !important;
+padding: 15px !important;
+-webkit-transition: all .5s ease-in-out;
+transition: all .5s ease-in-out;
+}
+
+.affix-top a {
+padding: 25px !important;
+position: static;
+
+}
+
+.navbar {
+border-radius: 0 !important;
+}
+
+kbd {
+border-radius: 0 !important;
+}
+
+footer {
+  background-color: #343434;
+  color: white;
+  padding: 1em 1em 0.5em;
+}
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
@@ -260,4 +297,3 @@ textarea {
     page-break-after: avoid;
   }
 }
-
