@@ -1,15 +1,15 @@
 <!doctype html>
-<html class="no-js" lang="">
+<html class="no-js" lang="en">
 
 <head>
   <meta charset="utf-8">
-  <title></title>
-  <meta name="description" content="">
+  <title>Alex D's Website</title>
+  <meta name="description" content="A website detailing Alex D">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <meta property="og:title" content="">
-  <meta property="og:type" content="">
-  <meta property="og:url" content="">
+  <meta property="og:title" content="Alex D's Website">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://www.alexd.org">
   <meta property="og:image" content="">
 
   <link rel="manifest" href="site.webmanifest">
@@ -18,22 +18,65 @@
 
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
 
   <meta name="theme-color" content="#fafafa">
 </head>
 
-<body>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
 
   <!-- Add your site or application content here -->
-  <p>Hello world! This is HTML5 Boilerplate.</p>
+
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mainNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">Alex D</a>
+      </div>
+      <div class="collapse navbar-collapse" id="mainNavbar">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#aboutMe">About Me</a></li>
+          <li><a href="myExperience">My Experience</a></li>
+          <li><a href="myWork">My Work</a></li>
+          <li><a href="contactMe">Contact Me</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div id="aboutMe">
+    <p>Hello world! This is work in progress website for Alex D.</p>
+  </div>
+  <div id="myExperience">
+    <p>Hello world! This is work in progress website for Alex D.</p>
+  </div>
+  <div id="myWork">
+    <p>Hello world! This is work in progress website for Alex D.</p>
+  </div>
+  <div id="contactMe">
+    <p>Hello world! This is work in progress website for Alex D.</p>
+  </div>
   <script src="js/vendor/modernizr-3.11.2.min.js"></script>
   <script src="js/plugins.js"></script>
   <script src="js/main.js"></script>
 
   <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
   <script>
-    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
-    ga('create', 'UA-XXXXX-Y', 'auto'); ga('set', 'anonymizeIp', true); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
+    window.ga = function() {
+      ga.q.push(arguments)
+    };
+    ga.q = [];
+    ga.l = +new Date;
+    ga('create', 'UA-XXXXX-Y', 'auto');
+    ga('set', 'anonymizeIp', true);
+    ga('set', 'transport', 'beacon');
+    ga('send', 'pageview')
   </script>
   <script src="https://www.google-analytics.com/analytics.js" async></script>
 </body>
